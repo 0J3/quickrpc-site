@@ -9,7 +9,7 @@ These instructions assume you have the following:
 3. Yarnpkg ([https://yarnpkg.com/](https://yarnpkg.com/)) (Classic will do (`npm i -g yarn`))
 4. Git (look it up)
 
-Steps 2., 3. and 4. are only for [building from source](#installingfromsource)
+Steps 2., 3. and 4. are only for [building from source](#buildingfromsource)
 
 Once you have the following, you can proceed to [Installing QuickRPC from prebuilt installers](#installingfromprebuiltinstallers)
 
@@ -33,7 +33,7 @@ Open a Terminal, `cd` into the directory (usually `cd ~/Downloads`), and run `su
 
 idk how to install snap files offhand just look it up ig
 
-## Installing from Source
+## Building from Source
 
 ### Downloading the QuickRPC Source Code
 
