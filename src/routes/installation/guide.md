@@ -9,7 +9,7 @@ These instructions assume you have the following:
 3. Yarnpkg ([https://yarnpkg.com/](https://yarnpkg.com/)) (Classic will do (`npm i -g yarn`))
 4. Git (look it up)
 
-Steps 2., 3. and 4. are only for [building from source](#buildingfromsource)
+Dependencies 2., 3. and 4. are only for [building from source](#buildingfromsource)
 
 Once you have the following, you can proceed to [Installing QuickRPC from prebuilt installers](#installingfromprebuiltinstallers)
 
