@@ -4,14 +4,14 @@
 
 These instructions assume you have the following:
 
-1. Discord (https://discord.com/)
-2. NodeJS (https://nodejs.org/)
-3. Yarnpkg (https://yarnpkg.com/) (Classic will do (`npm i -g yarn`))
+1. Discord ([https://discord.com/](https://discord.com/))
+2. NodeJS ([https://nodejs.org/](https://nodejs.org/))
+3. Yarnpkg ([https://yarnpkg.com/](https://yarnpkg.com/)) (Classic will do (`npm i -g yarn`))
 4. Git (look it up)
 
-Steps 2., 3. and 4. are only for [building from source](#build-instructions)
+Steps 2., 3. and 4. are only for [building from source](#installingfromsource)
 
-Once you have the following, you can proceed to [Installing QuickRPC from prebuilt installers](#installing-from-prebuilt-installers)
+Once you have the following, you can proceed to [Installing QuickRPC from prebuilt installers](#installingfromprebuiltinstallers)
 
 ## Installing from Prebuilt Installers
 
@@ -58,4 +58,4 @@ See [developers.md](/developers.md) (SoonTM)
 
 ---
 
-Now that you've installed it (regardless how), you can move on to [Configuration](#configuration)
+Now that you've installed it (regardless how), you can move on to [Configuration](/usage-guide#usingquickrpc)

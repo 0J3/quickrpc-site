@@ -26,7 +26,7 @@ const Home = () => {
           textAlign: 'center',
         }}
       >
-        Notice: This site is not going to look asd good as I wanted, as I just
+        Notice: This site is not going to look as good as I wanted, as I just
         can't be bothered. At the end of the day, I made QuickRPC for myself,
         and made it public for the Discord Community. I am not selling a
         product, nor necesarily actively trying to get new users.
