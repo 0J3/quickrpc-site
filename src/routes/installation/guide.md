@@ -54,7 +54,7 @@ idk how to install snap files offhand just look it up ig
 
 ### Developer Notes
 
-See [developers.md](/developers.md)
+See [developers.md](/developers.md) (SoonTM)
 
 ---
 
