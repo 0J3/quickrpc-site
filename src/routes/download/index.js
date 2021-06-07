@@ -4,6 +4,8 @@ import snap from './snapcraft.svg';
 import deb from './deb.webp';
 import OS from './os';
 
+import UAParser from 'ua-parser-js';
+
 const script = () => {
   const format = {
     win: 'https://github.com/0J3/QuickRPC/releases/download/VERSION/QuickRPC.Setup.VERSION.exe',
@@ -56,11 +58,11 @@ const Download = () => {
   const platform = new UAParser();
   let plat = 'Unknown';
   if (platform.getDevice() == 'mobile' || platform.getDevice() == 'tablet') {
-    plat = 'mobile_' + platform.getOS();
+    plat = 'mobile_' + platform.getOS().name;
   } else if (platform.getDevice() == 'wearable') {
-    plat = 'wearable_' + platform.getOS();
+    plat = 'wearable_' + platform.getOS().name;
   } else {
-    plat = platform.getOS();
+    plat = platform.getOS().name;
   }
 
   const s = script();
