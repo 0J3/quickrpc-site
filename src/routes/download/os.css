@@ -1,0 +1,31 @@
+.os {
+  display: inline-block;
+  border-radius: 5px;
+  background: #ffffff22;
+  width: auto;
+  max-width: 200px;
+  min-height: 30vh;
+  padding: 20px 20px;
+  margin-right: 20px;
+}
+.icon {
+  position: relative;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0);
+  height: auto;
+  width: 70%;
+  max-width: 150px;
+}
+.name {
+  text-align: center;
+}
+.btn {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  --btnColour: #4a4a4a;
+}
+.btn[active='yes'] {
+  --btnColour: #4caf50;
+}

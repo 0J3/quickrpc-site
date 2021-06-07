@@ -1,0 +1,23 @@
+.content {
+  padding: 56px 20px;
+  min-height: 100%;
+  width: 100%;
+}
+.code,
+code,
+tt {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(240, 246, 252, 0.16);
+  border-radius: 6px;
+}
+.code,
+code,
+pre,
+tt {
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-size: 12px;
+  width: max-content;
+  display: inline-block;
+}

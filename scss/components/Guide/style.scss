@@ -1,0 +1,12 @@
+.line {
+  max-width: 50vw;
+}
+@for $i from 0 to 100 {
+  .line:nth-child(#{$i}) {
+    &::before {
+      content: '#{$i}';
+      min-width: 2em;
+      display: inline-block;
+    }
+  }
+}

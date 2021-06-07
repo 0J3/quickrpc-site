@@ -1,0 +1,9 @@
+.Title.Size-Default {
+  font-size: var(--Size, 2.25em);
+}
+.Title.Size-Subtitle {
+  font-size: var(--Size, 1.7em);
+}
+.Title.Size-Subtitle-1 {
+  font-size: var(--Size, 1.7em);
+}
