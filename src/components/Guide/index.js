@@ -11,7 +11,9 @@ export default class Guide extends Component {
   }
 
   render() {
-    document.title = 'QuickRPC | ' + this.props.articleName;
+    if (typeof window !== 'undefined') {
+      document.title = 'QuickRPC | ' + this.props.articleName;
+    }
     return (
       <div className={guideStyle.content}>
         <MarkdownView

@@ -53,7 +53,9 @@ const script = () => {
 const Download = () => {
   const s = script();
   if (s == 'noPlat') {
-    document.title = 'QuickRPC | Select a Platform';
+    if (typeof window !== 'undefined')
+      document.title = 'QuickRPC | Select a Platform';
+
     return (
       <div className={style.download}>
         <h2>Select your OS</h2>
@@ -75,7 +77,9 @@ const Download = () => {
       </div>
     );
   } else if (s == 'invPlat') {
-    document.title = 'QuickRPC | Invalid Platform';
+    if (typeof window !== 'undefined')
+      document.title = 'QuickRPC | Invalid Platform Argument';
+
     return (
       <div className={style.download}>
         <h2>400: Invalid Platform</h2>
@@ -86,7 +90,9 @@ const Download = () => {
       </div>
     );
   } else {
-    document.title = 'QuickRPC | Downloading...';
+    if (typeof window !== 'undefined')
+      document.title = 'QuickRPC | Downloading...';
+
     return (
       <div className={style.download}>
         <h2>Downloading QuickRPC</h2>
