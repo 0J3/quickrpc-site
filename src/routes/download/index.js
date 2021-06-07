@@ -50,7 +50,19 @@ const script = () => {
   return 'success';
 };
 
+const debian = ['Debian', 'Mint', 'Raspbian', 'Ubuntu'];
+
 const Download = () => {
+  const platform = new UAParser();
+  let plat = 'Unknown';
+  if (platform.getDevice() == 'mobile' || platform.getDevice() == 'tablet') {
+    plat = 'mobile_' + platform.getOS();
+  } else if (platform.getDevice() == 'wearable') {
+    plat = 'wearable_' + platform.getOS();
+  } else {
+    plat = platform.getOS();
+  }
+
   const s = script();
   if (s == 'noPlat') {
     if (typeof window !== 'undefined')
@@ -63,15 +75,13 @@ const Download = () => {
           name="Windows"
           icon={win}
           short="win"
-          active={
-            navigator.platform.toLowerCase().startsWith('win') ? 'yes' : 'no'
-          }
+          active={plat.startsWith('Windows') ? 'yes' : 'no'}
         />
         <OS
           name="Linux (.deb)"
           icon={deb}
           short="deb"
-          active={navigator.platform.startsWith('Linux') ? 'yes' : 'no'}
+          active={debian.includes(plat) ? 'yes' : 'no'}
         />
         <OS name="Linux (.snap)" icon={snap} short="snap" />
       </div>
