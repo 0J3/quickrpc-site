@@ -1,5 +1,5 @@
 .header {
-  --headerHeight: 56px;
+  --headerHeight: var(--wideHeader);
   position: fixed;
   left: 0;
   top: 0;
@@ -54,5 +54,5 @@
 /* scrolled in page */
 html:not([data-scroll='0']) .header {
   background: #683ab78c;
-  --headerHeight: 42px;
+  --headerHeight: var(--thinHeader);
 }

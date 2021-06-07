@@ -11,6 +11,9 @@ body {
   /* color: #444; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --wideHeader: 56px;
+  --thinHeader: 42px;
 }
 body {
   transition: all 0.3s;
