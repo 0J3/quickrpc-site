@@ -31,8 +31,8 @@ const Home = () => {
         and made it public for the Discord Community. I am not selling a
         product, nor necesarily actively trying to get new users.
         <br />
-        However, if you want a new feature, or need support, or wish to
-        contribute, I encourage you to look at the{' '}
+        However, if you want a new feature, need support, or wish to contribute,
+        I encourage you to look at the{' '}
         <a href="https://github.com/0J3/QuickRPC">Source</a>, or file an issue{' '}
         <a href="https://github.com/0J3/QuickRPC/issues/new">here</a>
       </p>
